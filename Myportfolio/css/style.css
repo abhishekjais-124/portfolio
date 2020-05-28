@@ -249,13 +249,28 @@ textarea {
   outline: none;
   border-bottom: 1px solid #333;
   width: 70%;
-  margin: 0 auto;
   margin-bottom: 40px;
   padding-left: 20px;
+  margin-left: 100px;
 }
 
 input:focus,
 textarea:focus {
   border-color: #d35400;
   border-width: 2px;
+}
+
+.submit {
+  background-color: transparent;
+  width: 30%;
+  padding: 0;
+  border: 1px solid #333;
+  transition: all 0.5s ease;
+  font-weight: bold;
+}
+
+.submit:hover {
+  background-color: #d35400;
+  border-color: #d35400;
+  color: #fff;
 }
